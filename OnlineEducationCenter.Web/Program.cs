@@ -1,7 +1,3 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
-using OnlineEducationCenter.Web.Data;
-
 namespace OnlineEducationCenter.Web
 {
     public class Program
@@ -13,7 +9,7 @@ namespace OnlineEducationCenter.Web
             // Add services to the container.
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
-            builder.Services.AddSingleton<WeatherForecastService>();
+            //builder.Services.AddSingleton<>();
 
             var app = builder.Build();
 
